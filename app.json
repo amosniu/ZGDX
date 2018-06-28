@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/join/join"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#cccccc",
+    "navigationBarTitleText": "中国电信 世界触手可及",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/ic_home_normal.png",
+      "selectedIconPath": "images/ic_home_press.png"
+    },
+    {
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "images/ic_join_normal.png",
+      "selectedIconPath": "images/ic_join_press.png"
+    }
+    ]
+  }
+}
